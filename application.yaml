@@ -1,0 +1,17 @@
+message.config: From Config File
+list:
+     value: One, Two, Three
+map:
+    urls: "{url1 : 'https://-----', ur2 : 'https://************'}"
+
+achu:
+     name: Achutanand Pattnaik
+     address: Street No 1, Bangalore, Pin 560093
+#achu.proofs = {pan: 'AWRPP4767C', driving-license: 'DRLIC', bank-Details: 'AXIS'}
+server:
+  port: 8083
+
+management:endpoints.web.exposure.include: "*"
+spring:
+  profiles:
+    active: qa
