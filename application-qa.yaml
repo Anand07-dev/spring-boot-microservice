@@ -1,6 +1,7 @@
 server.port: 8081
-environment: "Comming from Default"
-customer:
+environment: "Comming from QA"
+achu:
+ customer:
        accounts: "SBI, ICICI, HDFC"
        firstname: "Achu"
        lastname: "Pattnaik"
