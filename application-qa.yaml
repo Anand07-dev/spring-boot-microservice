@@ -1,14 +1,13 @@
-message.config: From Config File from QA
-list:
-  value: One, Two, Three
-map:
-  urls: "{url1 : 'https://-----', ur2 : 'https://************'}"
+server.port: 8081
+environment: "Comming from Default"
+customer:
+       accounts: "SBI, ICICI, HDFC"
+       firstname: "Achu"
+       lastname: "Pattnaik"
+       dbValues:
+               "{dbConnection : 'http://111.111', dbPort: '3030', dbUser: 'Achu'}"
 
-achu:
-  name: Achutanand Pattnaik from QA
-  address: Street No 1, Bangalore, Pin 560093 from QA
-#achu.proofs = {pan: 'AWRPP4767C', driving-license: 'DRLIC', bank-Details: 'AXIS'}
-server:
-  port: 8083
-
-management:endpoints.web.exposure.include: "*"
+management:endpoints.web.exposure.include : "*"
+spring:
+  profiles:
+    active: "PROD"
