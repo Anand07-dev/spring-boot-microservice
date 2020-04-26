@@ -1,5 +1,5 @@
 server.port: 8081
-environment: "Comming from QA"
+environment: "Comming from UAT"
 customer:
        accounts: "SBI, ICICI, HDFC"
        firstname: "Achu"
@@ -8,6 +8,3 @@ customer:
                "{dbConnection : 'http://111.111', dbPort: '3030', dbUser: 'Achu'}"
 
 management:endpoints.web.exposure.include : "*"
-spring:
-  profiles:
-    active: "PROD"
