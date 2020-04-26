@@ -1,7 +1,6 @@
 server.port: 8081
 environment: "Comming from QA"
-achu:
- customer:
+customer:
        accounts: "SBI, ICICI, HDFC"
        firstname: "Achu"
        lastname: "Pattnaik"
