@@ -4,6 +4,6 @@ customer:
        firstname: "Achu"
        lastname: "Pattnaik"
        dbValues:
-               "{dbConnection : 'http://111.111', dbPort: '3030', dbUser: 'Achu'}"
+               "{dbConnection : 'http://18910.111', dbPort: '7777', dbUser: 'Achu'}"
 
 management:endpoints.web.exposure.include : "*"
