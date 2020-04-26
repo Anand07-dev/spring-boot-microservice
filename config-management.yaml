@@ -1,9 +1,9 @@
-environment: "Comming from UAT"
+environment: "Comming from DCM"
 customer:
        accounts: "SBI, ICICI, HDFC"
        firstname: "Achu"
        lastname: "Pattnaik"
        dbValues:
-               "{dbConnection : 'http://192.168.52.111', dbPort: '9999', dbUser: 'Achu'}"
+               "{dbConnection : 'http://192.168.52.222', dbPort: '1111', dbUser: 'Achu111'}"
 
 management:endpoints.web.exposure.include : "*"
