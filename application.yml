@@ -1,0 +1,21 @@
+env.name: DEV
+app.name: spring-boot-configuration ${env.name}
+
+list:
+     values: DEV, ENV, CLEAN
+
+map:
+    values: "{key: 'QA_ENV', value: 'Profile Testing'}"
+
+db:
+   connection: http://DEV:8082
+   username: userdev
+   password: passworddev
+   port: 9001
+
+management:
+           endpoints:
+                     web:
+                         exposure:
+                                  include: "*"
+
