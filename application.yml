@@ -2,7 +2,7 @@ env.name: DEV
 app.name: spring-boot-configuration ${env.name}
 
 list:
-     values: DEV, ENV, CLEAN, SPRING CONFIG SERVER SYNCING
+     values: DEV, ENV, CLEAN, SPRING CONFIG SERVER
 
 map:
     values: "{key: 'QA_ENV', value: 'Profile Testing'}"
